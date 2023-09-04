@@ -1,6 +1,7 @@
 const { MongoClient } = require("mongodb");
 require("dotenv/config");
-const url = process.env.DB_CONNECTION;
+const url =
+  "mongodb+srv://imdmahmudul237:m71svKZZk0T3Ba5D@cluster0.shyrc23.mongodb.net/?retryWrites=true&w=majority";
 const mongoOptions = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
